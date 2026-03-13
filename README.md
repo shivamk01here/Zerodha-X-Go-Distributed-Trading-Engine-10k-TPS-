@@ -19,6 +19,9 @@ A highly concurrent, event-driven trading platform capable of handling 10,000+ m
 | FIFO Matching Algorithm | Price-Time Priority matching for fair execution | Matching Engine |
 | Concurrency in Go | Using Mutexes and Goroutines for high-performance safety | Order Book Management |
 | Time Complexity | Optimizing data structures for O(log N) or O(1) lookups | Matching Engine |
+| ACID Properties | Ensuring Atomicity, Consistency, Isolation, and Durability | Wallet Service |
+| Idempotency | Preventing duplicate transactions for the same request | Ledger Management |
+| Distributed Transactions | Handling state across multiple services (Saga/2PC concepts) | Order Execution |
 
 ## Project Structure
 - `services/api-gateway`: REST entry point for clients.
